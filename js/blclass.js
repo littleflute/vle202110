@@ -502,7 +502,7 @@ function blClass ()
 		var b1 = this.blBtn(oBoss,oBoss.id+"b1","b1","grey"); b1.style.float = "left";
 		var b2 = this.blBtn(oBoss,oBoss.id+"b2","b2","grey"); b2.style.float = "right";
 		var b3 = this.blBtn(oBoss,oBoss.id+"b3","b3","grey");  
-		var b4 = this.blBtn(oBoss,oBoss.id+"b4","b4","grey");  
+		var b4 = this.blBtn(oBoss,oBoss.id+"b4","b4xd","grey");  
 		var v1 = this.blDiv(oBoss,oBoss.id+"v1","v1","lightblue");
 		var v2 = this.blDiv(oBoss,oBoss.id+"v2","v2","lightblue");
 		var r 	= this.blTextarea(v1,id,txt,"grey");
@@ -1376,7 +1376,7 @@ function ftnPlayer( oDiv ){
 			this.v = blo0.blDiv(v,v.id + "List","list", "lightblue");
 			var d = this.v;
 
-			d.vn = blo0.blDiv(d,d.id+"v4NewURL","v4NewURL",blPink[2]); 
+			d.vn = blo0.blDiv(d,d.id+"v4NewURL","v4NewURL","brown"); 
 			d.vn.ta = blo0.blTA(d.vn,d.vn+"ta","test");
 			
 
